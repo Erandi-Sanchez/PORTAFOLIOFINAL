@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #1b015d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1b015d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1b015d;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #1b015d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
+    width: 100 px; 
+    padding: 20 px;
+    border: 4px solid #1b015d;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-me {
+    text-align: center;
+    width: 100%; 
+    
+    font-size: 18px;
+    gap: 15px; /* Espacio entre la imagen y el texto */
+}
+
+#about-me img {
+    width: 100px;
+    height: 80px;
+}
+.contenedor img {
+    width: 80px; 
+    height: 80px;
+    margin-right: 15px; 
+    border-radius: 5px;
+}
+
+.texto {
+    flex: 1;
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
+    padding: 20px; /* Añade espacio dentro del cuadro */
+    
+}
+
+.social-media i {
+    font-size: 40px;
+    color: rgb(19, 4, 56);
+    margin-left: 10px;
+}
+
+
+/* Opcional: Añadir más espacio alrededor de la sección de proyectos */
+#projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
